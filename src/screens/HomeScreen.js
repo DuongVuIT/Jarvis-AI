@@ -7,9 +7,14 @@ import {
 import Features from '@components/features';
 export default function HomeScreen() {
   return (
-    <View className="flex-1 bg-white">
-      <SafeAreaView className="flex-1 flex mx-5">
-        <View className="justify-center flex-row">
+    <View style={{flex: 1, backgroundColor: '#ffffff'}}>
+      <SafeAreaView style={{flex: 1, marginLeft: 5, marginRight: 5}}>
+        <View
+          style={{
+            justifyContent: 'center',
+            flexDirection: 'row',
+            marginTop: 5,
+          }}>
           <Image
             style={{height: hp(15), width: hp(15)}}
             source={require('@assets/images/bot.png')}
