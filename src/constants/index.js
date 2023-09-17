@@ -1,4 +1,4 @@
-export const apiKey = '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';
+export const apiKey = 'Your Api key';
 export const JarvisMessage = [
   {
     role: 'user',
